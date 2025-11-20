@@ -1,0 +1,45 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background: pink;
+    height: 100vh;
+}
+
+/* GIF inicial */
+#introContainer {
+    margin-top: 40px;
+}
+
+#introGif {
+    width: 250px;
+    border-radius: 20px;
+}
+
+#questionContainer {
+    position: relative;
+    margin-top: 40px;
+}
+
+#resultContainer {
+    display: none;
+    margin-top: 70px;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#yesBtn {
+    position: relative;
+    left: -40px;
+}
+
+#noBtn {
+    position: relative;
+    left: 40px;
+    transition: transform 0.15s ease, font-size 0.15s ease;
+}
